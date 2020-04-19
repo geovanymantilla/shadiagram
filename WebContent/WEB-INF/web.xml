@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+	<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://java.sun.com/xml/ns/javaee"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+		version="3.0">
+		<display-name>Shadiagram1.0</display-name>
+		<servlet>
+			<servlet-name>RegistrarUsuario</servlet-name>
+			<servlet-class>entities.RegistrarUsuario</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>RegistrarUsuario</servlet-name>
+			<url-pattern>/RegistraruSUARIO</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>LoginController</servlet-name>
+			<servlet-class>entities.LoginController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>LoginController</servlet-name>
+			<url-pattern>/LoginController</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>EditarPerfilController</servlet-name>
+			<servlet-class>entities.EditarPerfilController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>EditarPerfilController</servlet-name>
+			<url-pattern>/EditarPerfilController</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>SubirFoto</servlet-name>
+			<servlet-class>entities.SubirFoto</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>SubirFoto</servlet-name>
+			<url-pattern>/SubirFoto</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>AñadirAmigo</servlet-name>
+			<servlet-class>entities.AñadirAmigo</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>AñadirAmigo</servlet-name>
+			<url-pattern>/AñadirAmigo</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>DestruirSesionController</servlet-name>
+			<servlet-class>entities.DestruirSesionController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>DestruirSesionController</servlet-name>
+			<url-pattern>/DestruirSesionController</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>CambiarEmailController</servlet-name>
+			<servlet-class>entities.CambiarEmailController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>CambiarEmailController</servlet-name>
+			<url-pattern>/CambiarEmailController</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>BuscarUsuarioController</servlet-name>
+			<servlet-class>entities.BuscarUsuarioController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>BuscarUsuarioController</servlet-name>
+			<url-pattern>/BuscarUsuarioController</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>ComentarioPublicacionController</servlet-name>
+			<servlet-class>entities.ComentarioPublicacionController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>ComentarioPublicacionController</servlet-name>
+			<url-pattern>/ComentarioPublicacioController</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>ReaccionController</servlet-name>
+			<servlet-class>entities.ReaccionController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>ReaccionController</servlet-name>
+			<url-pattern>/ReaccionController</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<servlet-name>ComentarioInicioController</servlet-name>
+			<servlet-class>entities.ComentarioInicioController</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>ComentarioInicioController</servlet-name>
+			<url-pattern>/ComentarioInicioController</url-pattern>
+		</servlet-mapping>
+	</web-app>
+</element>
