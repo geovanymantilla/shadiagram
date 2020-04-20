@@ -10,3 +10,4 @@ $(window).on("hashchange", function(){
 	}
 });
 $(window).trigger("hashchange");
+

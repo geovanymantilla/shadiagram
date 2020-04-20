@@ -18,7 +18,7 @@
 				<div></div>
 			</div>
 			<div class="tabs">
-				<form action="LoginController" method="post">
+				<form  class="login" action="LoginController" method="post">
 					<div class="inputs">
 						<div class="input">
 							<input placeholder="Usuario" type="text" name=usuario required="Éste es un campo necesario">
@@ -35,30 +35,33 @@
 					</div>
 					<button>Ingresar</button>
 				</form>
-				<form action="RegistrarUsuario" method="post">
+				<form  class="registro" action="RegistrarUsuario" method="post">
 					<div class="inputs">
+
 						<div class="input">
-							<input placeholder="Email" type="text" >
+							<input name="nombre" placeholder="nombres" type="text">
+							<img src="fotos/name.svg">
+						</div>
+						<div class="input">
+							<input name="apellido" placeholder="apellidos" type="text">
+							<img src="fotos/name.svg">
+						</div>
+						
+						<div class="input">
+							<input name="email" placeholder="Email" type="text">
 							<img src="fotos/mail.svg">
 						</div>
 						<div class="input">
-							<input placeholder="Usuario" type="text">
+							<input  name="usuario"placeholder="Usuario" type="text">
 							<img src="fotos/user.svg">
 						</div>
 						<div class="input">
-							<input placeholder="contraseña" type="password">
+							<input  name="pass" placeholder="contraseña" type="password">
 							<img src="fotos/password_lock.svg">
 						</div>
-						<div class="input">
-							<input placeholder="Nombre" type="text">
-							<img src="fotos/password_lock.svg">
-						</div>
-						<div class="input">
-							<input placeholder="Apellido" type="text">
-							<img src="fotos/password_lock.svg">
-						</div>
+						<button class="boton">Registrarse</button>
 					</div>
-					<button>Registrarse</button>
+					
 				</form>
 			</div>
 		</div>

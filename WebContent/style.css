@@ -23,7 +23,7 @@ html, body {
 }
 
 .logo {
-	width: 120px;
+	width: 80px;
 }
 
 .card {
@@ -38,7 +38,7 @@ html, body {
 }
 
 .extend {
-	max-height: 480px;
+	max-height: 700px;
 }
 
 .head {
@@ -121,7 +121,7 @@ form{
     background: #272424;
     border-radius: 8px;
     padding: 16px 18px 16px 51px;
-    color: rgb(220,220,220);
+    color: rgb(220,220,220);   
 }
 
 .input img{
@@ -167,7 +167,7 @@ form{
 }
 
 .checkbox input:checked ~ span::before{
-    background-image: url(../img/check.png);
+    background-image: url(fotos/check.png);
     background-size: cover;
 }
 
@@ -180,6 +180,10 @@ form{
     font-weight: 700;
     font-size: 21px;
     cursor: pointer;
+}
+.boton{
+	margin-left: auto;
+  margin-right: auto;
 }
 
 
