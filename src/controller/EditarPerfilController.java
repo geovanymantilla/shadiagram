@@ -49,11 +49,14 @@ public class EditarPerfilController extends HttpServlet {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
 		
-		String nomb=request.getParameter("nombre");
+
+      	String nomb=request.getParameter("nombre");
       	Part img=request.getPart("archivo");
       	InputStream is=img.getInputStream();
-      	File f=new File("C:/Users/usuario/eclipse-workspace/Shadiagram1.0/WebContent/fotos/"+nomb);
+      	File f=new File("C:/Users/GeovanyMantilla/eclipse-workspace/Proyecto-red-social-java/Shadiagram1.0/WebContent/fotos/"+nomb);
+      	
       	FileOutputStream ous= new FileOutputStream(f);
+      	
       	int dato = is.read();
       	
       	
@@ -61,8 +64,7 @@ public class EditarPerfilController extends HttpServlet {
       	Usuario usuario= (Usuario) session.getAttribute("usuario");
       	UsuarioDao uDao=new UsuarioDao();
       	usuario.setImagenPerfil(nomb);
-      	uDao.update(usuario);
-      	
+      	uDao.update(usuario);      	
       	
       	
       	while(dato!=-1) {

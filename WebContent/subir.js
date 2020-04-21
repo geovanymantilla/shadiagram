@@ -5,4 +5,8 @@ function cargarArchivo(elemento){
 	document.formulario.target = "null";
 	document.formulario.action = "SubirFoto";
 	document.formulario.submit();
+	
+}
+function limpiar(){
+	document.getElementById("formu").reset();
 }

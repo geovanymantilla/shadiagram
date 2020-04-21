@@ -42,7 +42,7 @@
 			<header>
 				<nav class="navbar navbar-light navegador">
 					<a class="navbar-brand" href="Inicio.jsp"> <img
-						src="http://wised.grupounipak.com/identidad/Iconos%20por%20Area/Icono-Personal.png"
+						src="fotos/logo.svg"
 						width="30" height="30" class="d-inline-block align-top" alt="">
 						SHADIAGRAM
 					</a>
@@ -74,11 +74,11 @@
 		<!-- Division para la foto del usuario  -->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 col-sm-5 col-5">
+				<div class="col-md-5 col-sm-5 col-5"  >
 					<br>
 					<!-- foto dinamica -->
 
-					<img src="fotos/${usuario.imagenPerfil}" class="imgRedonda">
+					<img style="float: right; margin: 0px 60px 15px 15px;" src="fotos/${usuario.imagenPerfil}" class="imgRedonda">
 				</div>
 				<div class="col md-2 col-sm-2 col-2">
 					<br>
@@ -91,9 +91,9 @@
 					<br>
 					<h3>Informacion del perfil</h3>
 					<br>
-					<h6>
-						<c:out value="${usuario.usuario}"></c:out>
-					</h6>
+					<h3>
+						<c:out value="${usuario.usuario}"></c:out> 
+					</h3>
 					<h6 class="alinear">
 						<p>
 							<br>
@@ -180,7 +180,7 @@
 					<div class="row" align="center">
 						<div class="col-md-12 col-sm-12 col-12">
 							<form name="formulario" method="post"
-								enctype="multipart/form-data" action="SubirFoto">
+								enctype="multipart/form-data" action="SubirFoto" id="formu">
 								<br> <input type="text" class="form-control"
 									id="exampleInputText1" aria-describedby="TextHelp"
 									placeholder="Escriba aqui su descripción ..."
@@ -188,6 +188,8 @@
 									type="file" onchange="cargarArchivo(this)" name="archivo"
 									accept="image/*" /> <input type="hidden" name="nombre"
 									value="" />
+									<button type="reset">Publicar</button>
+									
 							</form>
 							<iframe name="null" style="display: none;"></iframe>
 						</div>
@@ -214,7 +216,6 @@
 						<c:forEach var="publicaciones" items="${publicacions.rows}">
 							<div class="col-md-3 col-sm-6 col-6">
 								<div class="card" style="width: 15rem;">
-
 									<img src="fotos/${publicaciones.nombre_imagen}"
 										class="card-img-top" width="238px" height="238px" alt="..."
 										data-toggle="modal"

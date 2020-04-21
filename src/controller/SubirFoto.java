@@ -58,7 +58,7 @@ public class SubirFoto extends HttpServlet {
       	String nomb=request.getParameter("nombre");
       	Part img=request.getPart("archivo");
       	InputStream is=img.getInputStream();
-      	File f=new File("C:/Users/usuario/eclipse-workspace/Shadiagram1.0/WebContent/fotos/"+nomb);
+      	File f=new File("C:/fotos/GeovanyMantilla/eclipse-workspace/Proyecto-red-social-java/Shadiagram1.0/WebContent/fotos/"+nomb);
       	
       	FileOutputStream ous= new FileOutputStream(f);
       	

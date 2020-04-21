@@ -49,9 +49,9 @@
 	<div class="row">
 		<div class="col-md-12 col-sm-12 col-12">
 			<header>
-				<nav class="navbar navbar-light bg-info">
+				<nav class="navbar navbar-light navegador">
 					<a class="navbar-brand" href="Inicio.jsp"> <img
-						src="http://wised.grupounipak.com/identidad/Iconos%20por%20Area/Icono-Personal.png"
+						src="fotos/logo.svg"
 						width="30" height="30" class="d-inline-block align-top" alt="">
 						SHADIAGRAM
 					</a>

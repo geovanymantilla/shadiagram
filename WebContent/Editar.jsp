@@ -38,7 +38,7 @@
 			<header>
 				<nav class="navbar navbar-light navegador">
 					<a class="navbar-brand" href="Inicio.jsp"> <img
-						src="http://wised.grupounipak.com/identidad/Iconos%20por%20Area/Icono-Personal.png"
+						src="fotos/logo.svg"
 						width="30" height="30" class="d-inline-block align-top" alt="">
 						SHADIAGRAM
 					</a>
@@ -54,9 +54,9 @@
 				<br>
 				<ul class="list-group">
 					<li class="list-group-item"><button class="btn btn-link"
-							id="CambiarContraseña">Editar Perfil</button></li>
+							id="EditarPerfil">Editar Perfil</button></li>
 					<li class="list-group-item"><button class="btn btn-link"
-							id="EditarPerfil" data-toggle="modal" data-target="#contra">Cambiar
+							id="CambiarContraseña" data-toggle="modal" data-target="#contra">Cambiar
 							contraseña</button></li>
 
 				</ul>
@@ -69,8 +69,9 @@
 				<form name="formulario" method="post" enctype="multipart/form-data"
 					action="EditarPerfilController" class="alinearAmigo">
 					<br> <input type="file" onchange="editarArchivo(this)"
-						name="archivo" accept="image/*"> <input type="hidden"
+						name="archivo" accept="image/*" /> <input type="hidden"
 						name="nombre" value="" />
+					<button>Guardar</button>
 				</form>
 				<iframe name="null" style="display: none;"></iframe>
 

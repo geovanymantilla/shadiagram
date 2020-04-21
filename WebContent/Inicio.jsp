@@ -43,7 +43,7 @@
 			<header>
 				<nav class="navbar navbar-light navegador">
 					<a class="navbar-brand" href="inicio.jsp"> <img
-						src="http://wised.grupounipak.com/identidad/Iconos%20por%20Area/Icono-Personal.png"
+						src="fotos/logo.svg"
 						width="30" height="30" class="d-inline-block align-top" alt="">
 						SHADIAGRAM
 					</a>
@@ -92,7 +92,7 @@
 										style="width: 750px; margin-bottom: 80px">
 										<a
 											href="PerfilAmigo.jsp?usuario=${publicacion.usuarioPublicacion}&img-perfil=${usuario.imagen_perfil}">
-											<img src="fotos/${usuario.imagen_perfil}"
+											<img  src="fotos/${usuario.imagen_perfil}"
 											style="font-weight: bold;" class="imgPerfilInicio">
 											${publicacion.usuarioPublicacion }
 										</a>
@@ -101,7 +101,7 @@
 											class="card-img-top" alt="...">
 										<div class="card-body">
 											<p>
-												<span style="font-weight: bold;">${publicacion.usuarioPublicacion }</span>
+												<span style="font-weight: bold;">${publicacion.usuarioPublicacion}</span>
 												${publicacion.descripcion }
 											</p>
 										</div>
@@ -159,7 +159,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<p class="text-muted" style="color: #000;">Copyright C
-								Shadiagram- 2019</p>
+								Shadiagram- 2020</p>
 						</div>
 					</div>
 				</div>

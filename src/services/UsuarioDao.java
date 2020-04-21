@@ -17,6 +17,15 @@ public UsuarioDao(){
 		super(Usuario.class);
 	}
 
+public Usuario buscarPorUsuario(String usuario){
+	
+	Usuario u = (Usuario) this.getEm().
+			createQuery("select u from Usuario u where u.usuario = '" + usuario + "'").getSingleResult();
+
+	return u;
+	
+}
+
 }
 //	public EntityManager em;
 //
