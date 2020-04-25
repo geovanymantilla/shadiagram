@@ -4,5 +4,8 @@ Es una red social basada en instagram,que cuenta con las siguientes funciones: <
    2.Iniciar sesion<br>
    3.Subir imagenes<br>
    4.seguir personas<br>
+   
+        Esta es la pantalla del usuario, donde se encuentra su perfil con su informacion, fotos y seguidores.
 
-![principal](https://user-images.githubusercontent.com/38700066/80266984-72da9280-8664-11ea-9b3b-5be327c2f3b9.jpeg)
+![principal](https://user-images.githubusercontent.com/38700066/80266984-72da9280-8664-11ea-9b3b-5be327c2f3b9.jpeg )
+
