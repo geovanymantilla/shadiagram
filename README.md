@@ -22,6 +22,8 @@ Trabajamos con las siguientes tecnologias: <br>
 
 ![principal](https://user-images.githubusercontent.com/38700066/80266984-72da9280-8664-11ea-9b3b-5be327c2f3b9.jpeg )
 
+
+
 En el desarrollo utilizamos html y css como parte de nuestras vista apoyandonos de bootstraps. Ademas nos apoyamos en el sitio https://codepen.io/# para realizar la transicion de inicar sesion a registrar usuario nuevo, tambien utilizamos FontAwesome para trabajarcon iconos de la plataforma https://fontawesome.com/v4.7.0/, para ser uso de FontAwesome realizamos los siguiente pasos:<br>
 
  <b>1.registrarnos en https://fontawesome.com/v4.7.0/get-started/<br>
@@ -31,6 +33,8 @@ En el desarrollo utilizamos html y css como parte de nuestras vista apoyandonos 
    
                          Estos son algunos ejemplos de iconos que encontraremos en FontAwesome
    ![iconos_Font](https://user-images.githubusercontent.com/38700066/80269171-e97e8c80-8672-11ea-89f6-22e35dd6d29f.PNG)
+       
+       
        
        
                        Estas 2 imagenes son el ingresar y registrar de la aplicacion red social
