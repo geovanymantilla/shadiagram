@@ -55,10 +55,10 @@ public class SubirFoto extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub     	
 		
-      	String nomb=request.getParameter("nombre");
+		String nomb=request.getParameter("nombre");
       	Part img=request.getPart("archivo");
       	InputStream is=img.getInputStream();
-      	File f=new File("C:/fotos/GeovanyMantilla/eclipse-workspace/Proyecto-red-social-java/Shadiagram1.0/WebContent/fotos/"+nomb);
+      	File f=new File("C:/Users/GeovanyMantilla/eclipse-workspace/Proyecto-red-social-java/Shadiagram1.0/WebContent/fotos/"+nomb);
       	
       	FileOutputStream ous= new FileOutputStream(f);
       	

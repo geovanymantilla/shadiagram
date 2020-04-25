@@ -45,7 +45,7 @@
 					<a class="navbar-brand" href="inicio.jsp"> <img
 						src="fotos/logo.svg"
 						width="30" height="30" class="d-inline-block align-top" alt="">
-						SHADIAGRAM
+						REDSOCIAL
 					</a>
 					<form class="form-inline" method="post"
 						action="BuscarUsuarioController">

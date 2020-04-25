@@ -40,7 +40,7 @@
 					<a class="navbar-brand" href="Inicio.jsp"> <img
 						src="fotos/logo.svg"
 						width="30" height="30" class="d-inline-block align-top" alt="">
-						SHADIAGRAM
+						REDSOCIAL
 					</a>
 				</nav>
 		</div>
