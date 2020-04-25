@@ -1,4 +1,4 @@
-# shadiagram
+# red Social
 Es una red social basada en instagram,que cuenta con las siguientes funciones: <br>
 <b>1.▶Registrar<br>
    2.▶Iniciar sesion<br>
